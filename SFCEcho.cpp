@@ -14,7 +14,7 @@
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-COMPONENT_ENTRY(SFCEcho)
+AUDIOCOMPONENT_ENTRY(AUBaseFactory, SFCEcho)
 
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -285,7 +285,7 @@ ComponentResult		SFCEcho::GetProperty(	AudioUnitPropertyID inID,
                 if (bundleURL == NULL) return fnfErr;
                 
 				CFStringRef className = CFSTR("SFCEcho_ViewFactory");
-				AudioUnitCocoaViewInfo cocoaInfo = { bundleURL, className };
+                AudioUnitCocoaViewInfo cocoaInfo = { bundleURL, {className} };
 				*((AudioUnitCocoaViewInfo *)outData) = cocoaInfo;
 				
 				return noErr;

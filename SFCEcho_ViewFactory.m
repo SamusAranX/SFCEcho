@@ -24,7 +24,8 @@
 }
 
 - (NSView *)uiViewForAudioUnit:(AudioUnit)inAU withSize:(NSSize)inPreferredSize {
-	if (! [NSBundle loadNibNamed: @"SFCEcho_UIView" owner:self]) {
+    bool loaded = [[NSBundle mainBundle] loadNibNamed:@"SFCEcho_UIView" owner:self topLevelObjects:nil];
+	if (!loaded) {
         NSLog (@"Unable to load nib for view.");
 		return nil;
 	}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 90;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,6 @@
 		8A1D2461146547D600FD4C47 /* bt_copy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1D245F146547D600FD4C47 /* bt_copy1.png */; };
 		8A426DAD0B1CA972002E81EE /* SFCEchodefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A426DAC0B1CA972002E81EE /* SFCEchodefines.h */; };
 		8A426DAE0B1CA972002E81EE /* SFCEchodefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A426DAC0B1CA972002E81EE /* SFCEchodefines.h */; };
-		8B41193E0749636600361ABE /* SFCEcho.r in Rez */ = {isa = PBXBuildFile; fileRef = 8BA05A680720730100365D66 /* SFCEcho.r */; };
 		8BA05A6B0720730100365D66 /* SFCEcho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BA05A660720730100365D66 /* SFCEcho.cpp */; };
 		8BA05A6E0720730100365D66 /* SFCEchoVersion.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA05A690720730100365D66 /* SFCEchoVersion.h */; };
 		8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AF9072074E100365D66 /* AudioToolbox.framework */; };
@@ -34,9 +33,9 @@
 		8BA4AE5D073EB7C300A2709A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA4AE5B073EB79000A2709A /* Cocoa.framework */; };
 		8BA4AE5E073EB7C500A2709A /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AFA072074E100365D66 /* AudioUnit.framework */; };
 		8BA4AE5F073EB7C600A2709A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05AF9072074E100365D66 /* AudioToolbox.framework */; };
-		8BA4AE66073EBB2E00A2709A /* SFCEcho_ViewFactory.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BA4AE4E073EB69000A2709A /* SFCEcho_ViewFactory.bundle */; };
+		8BA4AE66073EBB2E00A2709A /* SFCEcho_ViewFactory.bundle in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8BA4AE4E073EB69000A2709A /* SFCEcho_ViewFactory.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8BC6025C073B072D006C4272 /* SFCEcho.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BC6025B073B072D006C4272 /* SFCEcho.h */; };
-		8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		B53AE8102DCF1B2A008FD3D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B53AE80F2DCF1B2A008FD3D2 /* Info.plist */; };
 		F51A890E155ED16800B18081 /* AUOutputBL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51A889C155ED16800B18081 /* AUOutputBL.cpp */; };
 		F51A890F155ED16800B18081 /* AUOutputBL.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A889D155ED16800B18081 /* AUOutputBL.h */; };
 		F51A8910155ED16800B18081 /* AUParamInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51A889E155ED16800B18081 /* AUParamInfo.cpp */; };
@@ -174,14 +173,12 @@
 		F51A89EC155ED18200B18081 /* AUBaseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A89B5155ED18200B18081 /* AUBaseHelper.h */; };
 		F51A89ED155ED18200B18081 /* AUBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51A89B6155ED18200B18081 /* AUBuffer.cpp */; };
 		F51A89EE155ED18200B18081 /* AUBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A89B7155ED18200B18081 /* AUBuffer.h */; };
-		F51A89EF155ED18200B18081 /* AUDebugDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51A89B8155ED18200B18081 /* AUDebugDispatcher.cpp */; };
 		F51A89F0155ED18200B18081 /* AUDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A89B9155ED18200B18081 /* AUDebugDispatcher.h */; };
 		F51A89F1155ED18200B18081 /* AUInputFormatConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A89BA155ED18200B18081 /* AUInputFormatConverter.h */; };
 		F51A89F2155ED18200B18081 /* AUSilentTimeout.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A89BB155ED18200B18081 /* AUSilentTimeout.h */; };
 		F51A89F3155ED18200B18081 /* AUTimestampGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51A89BC155ED18200B18081 /* AUTimestampGenerator.cpp */; };
 		F51A89F4155ED18200B18081 /* AUTimestampGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = F51A89BD155ED18200B18081 /* AUTimestampGenerator.h */; };
 		F51A8A5F155ED3F400B18081 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8A5E155ED3F400B18081 /* CoreAudio.framework */; };
-		F51A8B15155EDCA000B18081 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D01CCD10486CAD60068D4B7 /* Info.plist */; };
 		F55E1D2315600363000BF219 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51A8A5E155ED3F400B18081 /* CoreAudio.framework */; };
 		F55E1D2415600363000BF219 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA05B01072074F900365D66 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
@@ -199,18 +196,15 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		8BA4AE65073EBB1B00A2709A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 7;
+			dstSubfolder = Resources;
 			files = (
 				8BA4AE66073EBB2E00A2709A /* SFCEcho_ViewFactory.bundle in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32BAE0B30371A71500C91783 /* SFCEcho_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCEcho_Prefix.pch; sourceTree = "<group>"; };
 		8A00C1C90B1EB1E700338862 /* AUCarbonViewEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.cpp.cpp; path = AUCarbonViewEditor.cpp; sourceTree = "<group>"; };
 		8A00C1CA0B1EB1E700338862 /* AUCarbonViewEditor.h */ = {isa = PBXFileReference; fileEncoding = 18446744071562067968; lastKnownFileType = sourcecode.c.h; path = AUCarbonViewEditor.h; sourceTree = "<group>"; };
@@ -357,8 +351,8 @@
 		8BA4AE4F073EB69000A2709A /* SFCEcho_ViewFactory.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = SFCEcho_ViewFactory.plist; sourceTree = "<group>"; };
 		8BA4AE5B073EB79000A2709A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		8BC6025B073B072D006C4272 /* SFCEcho.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SFCEcho.h; sourceTree = "<group>"; };
-		8D01CCD10486CAD60068D4B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D01CCD20486CAD60068D4B7 /* SFCEcho.component */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFCEcho.component; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53AE80E2DCF1B2A008FD3D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		F51A889C155ED16800B18081 /* AUOutputBL.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.cpp.cpp; name = AUOutputBL.cpp; path = Extras/CoreAudio/PublicUtility/AUOutputBL.cpp; sourceTree = DEVELOPER_DIR; };
 		F51A889D155ED16800B18081 /* AUOutputBL.h */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.c.h; name = AUOutputBL.h; path = Extras/CoreAudio/PublicUtility/AUOutputBL.h; sourceTree = DEVELOPER_DIR; };
 		F51A889E155ED16800B18081 /* AUParamInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 2147483649; lastKnownFileType = sourcecode.cpp.cpp; name = AUParamInfo.cpp; path = Extras/CoreAudio/PublicUtility/AUParamInfo.cpp; sourceTree = DEVELOPER_DIR; };
@@ -509,7 +503,6 @@
 /* Begin PBXFrameworksBuildPhase section */
 		8BA4AE4C073EB69000A2709A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA4AE5D073EB7C300A2709A /* Cocoa.framework in Frameworks */,
 				8BA4AE5E073EB7C500A2709A /* AudioUnit.framework in Frameworks */,
@@ -517,11 +510,9 @@
 				F55E1D2315600363000BF219 /* CoreAudio.framework in Frameworks */,
 				F55E1D2415600363000BF219 /* CoreServices.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D01CCCD0486CAD60068D4B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA05AFC072074E100365D66 /* AudioToolbox.framework in Frameworks */,
 				8BA05AFD072074E100365D66 /* AudioUnit.framework in Frameworks */,
@@ -529,7 +520,6 @@
 				8BA4AE5C073EB79000A2709A /* Cocoa.framework in Frameworks */,
 				F51A8A5F155ED3F400B18081 /* CoreAudio.framework in Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
@@ -564,8 +554,7 @@
 			children = (
 				8BA4ADF4073EB43200A2709A /* SFCEcho_UIView.nib */,
 				8BA4AE4F073EB69000A2709A /* SFCEcho_ViewFactory.plist */,
-				8D01CCD10486CAD60068D4B7 /* Info.plist */,
-				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				B53AE80F2DCF1B2A008FD3D2 /* Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -998,17 +987,14 @@
 /* Begin PBXHeadersBuildPhase section */
 		8BA4AE52073EB70000A2709A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA4AE54073EB72300A2709A /* SFCEcho_ViewFactory.h in Headers */,
 				8BA4AE55073EB72300A2709A /* SFCEcho_UIView.h in Headers */,
 				8A426DAE0B1CA972002E81EE /* SFCEchodefines.h in Headers */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D01CCC70486CAD60068D4B7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA05A6E0720730100365D66 /* SFCEchoVersion.h in Headers */,
 				8BC6025C073B072D006C4272 /* SFCEcho.h in Headers */,
@@ -1096,7 +1082,6 @@
 				F51A89F2155ED18200B18081 /* AUSilentTimeout.h in Headers */,
 				F51A89F4155ED18200B18081 /* AUTimestampGenerator.h in Headers */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
@@ -1112,8 +1097,6 @@
 			);
 			buildRules = (
 			);
-			dependencies = (
-			);
 			name = CocoaUI;
 			productName = CocoaUI;
 			productReference = 8BA4AE4E073EB69000A2709A /* SFCEcho_ViewFactory.bundle */;
@@ -1127,7 +1110,6 @@
 				8D01CCC90486CAD60068D4B7 /* Resources */,
 				8D01CCCB0486CAD60068D4B7 /* Sources */,
 				8D01CCCD0486CAD60068D4B7 /* Frameworks */,
-				8D01CCCF0486CAD60068D4B7 /* Rez */,
 				8BA4AE65073EBB1B00A2709A /* CopyFiles */,
 			);
 			buildRules = (
@@ -1146,17 +1128,19 @@
 /* Begin PBXProject section */
 		089C1669FE841209C02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1630;
+			};
 			buildConfigurationList = 3E0BED060898391C00E1F0F7 /* Build configuration list for PBXProject "SFCEcho" */;
-			compatibilityVersion = "Xcode 3.1";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
-				English,
-				Japanese,
-				French,
-				German,
+				en,
 			);
 			mainGroup = 089C166AFE841209C02AAC07 /* SFCEcho */;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 90;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1169,18 +1153,14 @@
 /* Begin PBXResourcesBuildPhase section */
 		8BA4AE4A073EB69000A2709A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA4AE58073EB74C00A2709A /* SFCEcho_UIView.nib in Resources */,
-				F51A8B15155EDCA000B18081 /* Info.plist in Resources */,
+				B53AE8102DCF1B2A008FD3D2 /* Info.plist in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D01CCC90486CAD60068D4B7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				8D01CCCA0486CAD60068D4B7 /* InfoPlist.strings in Resources */,
 				8BA4ADF5073EB43200A2709A /* SFCEcho_UIView.nib in Resources */,
 				8A00C2A60B1EB1E700338862 /* AUBackground.png in Resources */,
 				8A00C2A80B1EB1E700338862 /* editor.nib in Resources */,
@@ -1192,34 +1172,19 @@
 				8A1D2460146547D600FD4C47 /* bt_copy0.png in Resources */,
 				8A1D2461146547D600FD4C47 /* bt_copy1.png in Resources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXRezBuildPhase section */
-		8D01CCCF0486CAD60068D4B7 /* Rez */ = {
-			isa = PBXRezBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8B41193E0749636600361ABE /* SFCEcho.r in Rez */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXRezBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BA4AE4B073EB69000A2709A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA4AE56073EB73300A2709A /* SFCEcho_ViewFactory.m in Sources */,
 				8BA4AE57073EB73300A2709A /* SFCEcho_UIView.m in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8D01CCCB0486CAD60068D4B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 				8BA05A6B0720730100365D66 /* SFCEcho.cpp in Sources */,
 				F51A890E155ED16800B18081 /* AUOutputBL.cpp in Sources */,
@@ -1281,10 +1246,8 @@
 				F51A89E9155ED18200B18081 /* MusicDeviceBase.cpp in Sources */,
 				F51A89EB155ED18200B18081 /* AUBaseHelper.cpp in Sources */,
 				F51A89ED155ED18200B18081 /* AUBuffer.cpp in Sources */,
-				F51A89EF155ED18200B18081 /* AUDebugDispatcher.cpp in Sources */,
 				F51A89F3155ED18200B18081 /* AUTimestampGenerator.cpp in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
@@ -1297,29 +1260,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+		B53AE80F2DCF1B2A008FD3D2 /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C167EFE841241C02AAC07 /* English */,
+				B53AE80E2DCF1B2A008FD3D2 /* en */,
 			);
-			name = InfoPlist.strings;
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3E0BECFF0898391C00E1F0F7 /* Development */ = {
+		3E0BECFF0898391C00E1F0F7 /* Development configuration for PBXNativeTarget "CocoaUI" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUGGING_SYMBOLS = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_VERSION = 4.0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = SFCEcho_ViewFactory.plist;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_CFLAGS = "";
@@ -1330,6 +1294,7 @@
 					AppKit,
 				);
 				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VeMa.audiounit.SFCEcho;
 				PRODUCT_NAME = SFCEcho_ViewFactory;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -1341,14 +1306,15 @@
 			};
 			name = Development;
 		};
-		3E0BED000898391C00E1F0F7 /* Deployment */ = {
+		3E0BED000898391C00E1F0F7 /* Deployment configuration for PBXNativeTarget "CocoaUI" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				DEAD_CODE_STRIPPING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				GCC_VERSION = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = SFCEcho_ViewFactory.plist;
 				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
 				OTHER_CFLAGS = "";
@@ -1359,6 +1325,7 @@
 					AppKit,
 				);
 				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VeMa.audiounit.SFCEcho;
 				PRODUCT_NAME = SFCEcho_ViewFactory;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
@@ -1370,41 +1337,44 @@
 			};
 			name = Deployment;
 		};
-		3E0BED030898391C00E1F0F7 /* Development */ = {
+		3E0BED030898391C00E1F0F7 /* Development configuration for PBXNativeTarget "SFCEcho" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUGGING_SYMBOLS = YES;
 				DEPLOYMENT_LOCATION = NO;
 				EXPORTED_SYMBOLS_FILE = SFCEcho.exp;
 				FRAMEWORK_SEARCH_PATHS = "";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SFCEcho_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = en.lproj/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SFCEcho;
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_SEARCH_PATHS = "";
 				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-bundle";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VeMa.audiounit.SFCEcho;
 				PRODUCT_NAME = SFCEcho;
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
 					/Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase,
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1416,39 +1386,41 @@
 			};
 			name = Development;
 		};
-		3E0BED040898391C00E1F0F7 /* Deployment */ = {
+		3E0BED040898391C00E1F0F7 /* Deployment configuration for PBXNativeTarget "SFCEcho" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = NO;
 				EXPORTED_SYMBOLS_FILE = SFCEcho.exp;
 				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SFCEcho_Prefix.pch;
-				GCC_VERSION = 4.2;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
 				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
 				GCC_WARN_UNKNOWN_PRAGMAS = NO;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = en.lproj/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SFCEcho;
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_SEARCH_PATHS = "";
 				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-bundle";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64";
+				PRODUCT_BUNDLE_IDENTIFIER = com.VeMa.audiounit.SFCEcho;
 				PRODUCT_NAME = SFCEcho;
 				REZ_SEARCH_PATHS = (
 					/System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers,
 					/Developer/Examples/CoreAudio/AudioUnits/AUPublic/AUBase,
 				);
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = (
 					"-Wmost",
@@ -1460,33 +1432,90 @@
 			};
 			name = Deployment;
 		};
-		3E0BED070898391C00E1F0F7 /* Development */ = {
+		3E0BED070898391C00E1F0F7 /* Development configuration for PBXProject "SFCEcho" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386";
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				ZERO_LINK = YES;
 			};
 			name = Development;
 		};
-		3E0BED080898391C00E1F0F7 /* Deployment */ = {
+		3E0BED080898391C00E1F0F7 /* Deployment configuration for PBXProject "SFCEcho" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_SSE3_EXTENSIONS = NO;
 				GCC_ENABLE_SSE41_EXTENSIONS = NO;
 				GCC_ENABLE_SSE42_EXTENSIONS = NO;
 				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = NO;
 				GCC_MODEL_PPC64 = NO;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				OTHER_REZFLAGS = "";
-				SDKROOT = macosx10.6;
+				SDKROOT = macosx;
 				WARNING_CFLAGS = (
 					"-Wmost",
 					"-Wno-four-char-constants",
@@ -1501,28 +1530,25 @@
 		3E0BECFE0898391C00E1F0F7 /* Build configuration list for PBXNativeTarget "CocoaUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E0BECFF0898391C00E1F0F7 /* Development */,
-				3E0BED000898391C00E1F0F7 /* Deployment */,
+				3E0BECFF0898391C00E1F0F7 /* Development configuration for PBXNativeTarget "CocoaUI" */,
+				3E0BED000898391C00E1F0F7 /* Deployment configuration for PBXNativeTarget "CocoaUI" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 		3E0BED020898391C00E1F0F7 /* Build configuration list for PBXNativeTarget "SFCEcho" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E0BED030898391C00E1F0F7 /* Development */,
-				3E0BED040898391C00E1F0F7 /* Deployment */,
+				3E0BED030898391C00E1F0F7 /* Development configuration for PBXNativeTarget "SFCEcho" */,
+				3E0BED040898391C00E1F0F7 /* Deployment configuration for PBXNativeTarget "SFCEcho" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 		3E0BED060898391C00E1F0F7 /* Build configuration list for PBXProject "SFCEcho" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3E0BED070898391C00E1F0F7 /* Development */,
-				3E0BED080898391C00E1F0F7 /* Deployment */,
+				3E0BED070898391C00E1F0F7 /* Development configuration for PBXProject "SFCEcho" */,
+				3E0BED080898391C00E1F0F7 /* Deployment configuration for PBXProject "SFCEcho" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Development;
 		};
 /* End XCConfigurationList section */

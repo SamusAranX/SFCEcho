@@ -68,7 +68,7 @@ void EventListenerDispatcher (void *inRefCon, void *inObject, const AudioUnitEve
 		uiParamFIRTapTextField6,
 		uiParamFIRTapTextField7
 	};
-	int	tag = [sender tag];
+	int tag = (int)[sender tag];
     float floatValue = [sender floatValue];
 	floatValue = floor(floatValue);
 	
@@ -102,7 +102,7 @@ void EventListenerDispatcher (void *inRefCon, void *inObject, const AudioUnitEve
 		uiBandValue3,
 		uiBandValue4
 	};
-	int tag = [sender tag];
+	int tag = (int)[sender tag];
 	float floatValue = [sender floatValue];
 	
 	if (sender == uiBandSlider[tag]) {
